@@ -1,0 +1,14 @@
+{
+  "name": "foodmine-bastidas-main",
+  "version": "1.0.0",
+  "description": "1. Introduccion de mi tienda\r 2. Instalamos development tools\r 3. Creamos Angular App\r     1. Primero creamos el proyecto\r     2. Instalamos en el terminal @angular/cli\r     3. Creamos App de frontend\r 4. Añadimos Encabezado\r     1. Generamos componente\r     2. Agregamos HTML\r     3. Agregamos CSS",
+  "main": "index.js",
+  "scripts": {
+    "start": "cd backend/built && node server.js",
+    "prebuild": "cd backend && npm run build",
+    "build": "cd frontend && npm run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
